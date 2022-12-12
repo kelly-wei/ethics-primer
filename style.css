@@ -70,3 +70,57 @@ html, body{
     text-align: center;
     font-size: 50px;
 }
+
+.subheading{
+    border-bottom: 6px dotted #40a3b2;
+}
+
+.accordion {
+    background-color: #8b5b2f;
+    color: #f1d9bd;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #3F721B;
+    color: #C6E6B3;
+
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: #C6E6B3;
+    display: none;
+    overflow: hidden;
+}
+
+.row{
+    display: flex;
+}
+
+.questions{
+    border-radius: 20px;
+    text-align: left;
+    background-color: #40a3b2;
+}
+
+.questions p{
+    color: white;
+    padding: 10px 10px 0px 10px;
+}
+
+.questions li{
+    color: white;
+}
+
+a{
+    color: #007c8f;
+    color: #0272aa;
+}
