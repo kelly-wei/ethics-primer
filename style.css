@@ -2,6 +2,11 @@ html, body{
     background-color: #A6DFE8;
 }
 
+footer{
+    font-style: italic;
+    text-align: center;
+}
+
 .nav {
     overflow: hidden;
     background-color: #8b5b2f;
